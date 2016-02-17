@@ -1,0 +1,65 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontalScrollView2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:scrollbars="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:focusable="false"
+         >
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_id_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="0" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_time_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="1" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_region_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="2" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_tree_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="3" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_lb_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="4" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_xb_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="5" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="24sp"
+            android:id="@+id/text_state_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="6" />
+        
+    </LinearLayout>
+
+</HorizontalScrollView>

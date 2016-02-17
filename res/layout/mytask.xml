@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <edu.nefu.main.MyListView
+        android:id="@+id/task_list"
+        android:layout_width="fill_parent"
+        android:scrollingCache="false"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1" >
+    </edu.nefu.main.MyListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+
+        <TextView
+            android:background="@color/light_blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="上级任务"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/update_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="更新任务列表"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@drawable/blue_button" />
+
+        <Button
+            android:id="@+id/exit_task"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="退出"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@drawable/blue_button" />
+    </LinearLayout>
+
+</RelativeLayout>

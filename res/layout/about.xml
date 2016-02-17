@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/light_blue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="帮助信息" />
+    
+    <TextView
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/helpinfo" />
+    
+    <TextView
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="copyright @ 2010-2014 by mygroup" />
+
+</LinearLayout>

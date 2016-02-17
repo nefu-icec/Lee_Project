@@ -1,0 +1,93 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontalScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:scrollbars="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+         >
+         <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="0" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="1" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_region"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="2" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="3" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_lb"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="4" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_xb"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="5" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_db"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="6" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_dm"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="7" />
+        
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_dw"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="8" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_de"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="9" />
+        <TextView
+            android:paddingLeft="5dp"
+            android:textSize="22sp"
+            android:id="@+id/text_ar"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="10" />
+        
+    </LinearLayout>
+
+</HorizontalScrollView>

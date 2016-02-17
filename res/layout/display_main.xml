@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <edu.nefu.display.MyMapView
+        android:id="@+id/display_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" >
+
+       <LinearLayout
+           android:id="@+id/linearLayout1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/light_blue" >
+
+           <TextView
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:text="我的地图"
+               android:textSize="28sp"
+               android:textStyle="bold" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentLeft="true"
+           android:orientation="horizontal" >
+
+           <Button
+               android:id="@+id/display_button_movestate"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:background="@drawable/blue_button"
+               android:padding="5dp"
+               android:text="@string/display_button_move" />
+
+           <Button
+               android:id="@+id/display_button_updatestate"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:background="@drawable/blue_button"
+               android:padding="5dp"
+               android:text="@string/display_button_update" />
+
+           <Button
+               android:id="@+id/display_button_changecolor"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:background="@drawable/blue_button"
+               android:padding="5dp"
+               android:text="@string/display_button_color" />
+
+           <Button
+               android:id="@+id/display_button_gps"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_weight="1"
+               android:background="@drawable/blue_button"
+               android:padding="5dp"
+               android:text="@string/display_button_gps" />
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/dismodel"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_below="@+id/linearLayout1"
+           android:background="@drawable/blue_button"
+           android:text="@string/dismodel" />
+
+   </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_right"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical" >
+        
+        <AbsoluteLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/lightslategray"
+            >
+            <TextView 
+                android:text="@string/toolstitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:gravity="center_horizontal"
+                />
+        </AbsoluteLayout>
+        
+        <ListView 
+            android:id="@+id/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >     
+        </ListView>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_left"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        >
+        <RelativeLayout 
+            android:background="@color/light_blue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView 
+                    android:padding="10dp"
+                    android:text="我的主页"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                />
+
+                <Button
+                    android:id="@+id/translate_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/blue_button"
+                    android:text="功能" />
+
+            </LinearLayout> 
+            
+        </RelativeLayout>
+        <TableLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <TableRow 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <Button 
+                    android:id="@+id/view_map"
+                    android:text="地图浏览"
+                    android:textStyle="bold"
+                    android:textSize="27sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:background="@drawable/green_button"
+                    />
+
+                <Button
+                    android:id="@+id/mytask"
+                    android:text="上级任务"
+                    android:textStyle="bold"
+                    android:textSize="27sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:background="@drawable/purple_button"
+                    />
+
+            </TableRow>
+            <TableRow 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+                <Button 
+                    android:id="@+id/histories"
+                    android:text="历史记录"
+                    android:textStyle="bold"
+                    android:textSize="27sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:background="@drawable/grey_button"
+                    />
+                <Button 
+                    android:id="@+id/more_tools"
+                    android:text="更多功能"
+                    android:textStyle="bold"
+                    android:textSize="27sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:focusable="false"
+                    android:background="@drawable/orange_button"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+        </TableLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

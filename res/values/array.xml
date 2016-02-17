@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string-array name="region">
+            <item >全省通用</item>
+            <item >小兴安岭北坡</item>
+            <item >小兴安岭南坡</item>
+            <item >完达山山地</item>
+            <item >张广才岭西坡</item>
+            <item >张广才岭东坡</item>
+            <item >嫩江流域</item>
+            <item >人工落叶松</item>
+            <item >人工杨类</item>
+        </string-array>
+        
+        <string-array name="tree_common">
+            <item >红松</item>
+            <item >樟子松</item>
+            <item >冷杉</item>
+            <item >赤松</item>
+            <item >云杉</item>
+            <item >青杨</item>
+            <item >人工小黑杨</item>
+        </string-array>
+        
+        <string-array name="tree_xxalbp"> 
+            <item >落叶松</item>
+            <item >胡桃秋</item>
+            <item >水曲柳</item>
+            <item >榆树</item>
+            <item >色树</item>
+            <item >枫桦</item>
+            <item >柞树</item>
+            <item >黑桦</item>
+            <item >白桦</item>
+            <item >椴树</item>
+            <item >山杨</item>
+        </string-array> 
+        
+        <string-array name="tree_xxalnp">
+            <item >落叶松</item>
+            <item >胡桃秋</item>
+            <item >水曲柳</item>
+            <item >榆树</item>
+            <item >色树</item>
+            <item >枫桦</item>
+            <item >柞树</item>
+            <item >黑桦</item>
+            <item >白桦</item>
+            <item >椴树</item>
+            <item >山杨</item>
+        </string-array>
+            
+        <string-array name="tree_wdssd">
+            <item >水曲柳</item>
+            <item >胡桃秋</item>
+            <item >黄菠萝</item>
+            <item >榆树</item>
+            <item >色树</item>
+            <item >枫桦</item>
+            <item >柞树</item>
+            <item >黑桦</item>
+            <item >白桦</item>
+            <item >椴树</item>
+            <item >山杨</item>
+        </string-array>
+            
+        <string-array name="tree_zgclxp">
+            <item >水曲柳</item>
+            <item >胡桃秋</item>
+            <item >黄菠萝</item>
+            <item >榆树</item>
+            <item >色树</item>
+            <item >枫桦</item>
+            <item >柞树</item>
+            <item >黑桦</item>
+            <item >白桦</item>
+            <item >椴树</item>
+            <item >山杨</item>
+            <item >柳树</item>
+        </string-array>
+            
+        <string-array name="tree_zgcldp">
+            <item >胡桃秋</item>
+            <item >水曲柳</item>
+            <item >黄菠萝</item>
+            <item >榆树</item>
+            <item >色树</item>
+            <item >枫桦</item>
+            <item >柞树</item>
+            <item >黑桦</item>
+            <item >白桦</item>
+            <item >椴树</item>
+            <item >山杨</item>
+        </string-array>
+            
+        <string-array name="tree_njly">
+            <item >落叶松</item>
+            <item >黑桦</item>
+            <item >柞树</item>
+            <item >白桦</item>
+            <item >山杨</item>
+        </string-array>
+            
+        <string-array name="tree_rglys">
+            <item >黑龙江省东部地区</item>
+            <item >黑龙江省南部地区</item>
+            <item >黑龙江省北部地区</item>
+        </string-array>
+            
+        <string-array name="tree_rgyl">
+            <item >龙江、富裕县中东杨</item>
+            <item >杜蒙自治县中东杨</item>
+            <item >泰来、甘南、林甸县中东杨</item>
+            <item >杜蒙自治县小叶杨</item>
+            <item >泰来县小叶杨</item>
+            <item >林甸、甘南、龙江、富裕县小叶杨</item>
+        </string-array>
+        
+        <string-array name="tree">
+            <item >人工杨类</item>
+            <item >落叶松</item>
+            <item >黑桦</item>
+            <item >柞树</item>
+            <item >白桦</item>
+            <item >山杨</item>
+            <item >红松</item>
+            <item >樟子松</item>
+            <item >冷杉</item>
+            <item >赤松</item>
+            <item >云杉</item>
+            <item >青杨</item>
+            <item >人工小黑杨</item>
+            <item >胡桃秋</item>
+            <item >水曲柳</item>
+            <item >榆树</item>
+            <item >色树</item>
+            <item >枫桦</item>
+            <item >柞树</item>
+            <item >黑桦</item>
+            <item >白桦</item>
+            <item >椴树</item>
+        </string-array>
+        
+        <string-array name="color">
+            <item >水晶蓝</item>
+            <item >诱惑紫</item>
+            <item >青春绿</item>
+        </string-array>
+    </resources>

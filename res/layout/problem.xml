@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#FF3B3B3B"
+        android:text="@string/problem_title" />
+    
+    <EditText
+        android:id="@+id/problem_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/problem_contact"
+        android:layout_below="@+id/textView1"
+        android:hint="@string/problem_hint" />
+
+    <LinearLayout
+        android:id="@+id/temp1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/problem_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:text="@string/problem_ok"
+            />
+        <Button 
+            android:id="@+id/problem_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:text="@string/problem_cancel"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/problem_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/temp1"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/problem_address" >
+    </EditText>
+    
+</RelativeLayout>

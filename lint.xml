@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/pull_to_refresh_header.xml" />
+    </issue>
+    <issue id="Deprecated">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/inputdialog.xml" />
+    </issue>
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="HardcodedText">
+        <ignore path="res/layout/about.xml" />
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/display_main.xml" />
+        <ignore path="res/layout/histories.xml" />
+        <ignore path="res/layout/histories_item.xml" />
+        <ignore path="res/layout/ipconfig.xml" />
+        <ignore path="res/layout/mytask.xml" />
+        <ignore path="res/layout/mytask_item.xml" />
+        <ignore path="res/layout/problem.xml" />
+        <ignore path="res/layout/prompt.xml" />
+        <ignore path="res/layout/uploadtool.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res/layout/histories_item.xml" />
+        <ignore path="res/layout/mytask_item.xml" />
+    </issue>
+    <issue id="SdCardPath" severity="ignore" />
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="TextFields">
+        <ignore path="res/layout/ipconfig.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/activity_main.xml" />
+        <ignore path="res/layout/ipconfig.xml" />
+    </issue>
+</lint>

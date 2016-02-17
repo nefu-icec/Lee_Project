@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/in" 
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+        >
+        <Spinner
+            android:id="@+id/s_region"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp" 
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/regions"
+            />
+        
+        <Spinner
+            android:id="@+id/s_tree"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="50dp" 
+            android:prompt="@string/trees"
+        />
+    </LinearLayout>
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/db"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputdb" 
+        />
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/dm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputdm" 
+        />
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/dw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/inputdw"
+        />
+
+    <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+        >
+        <EditText
+            android:numeric="integer"
+            android:id="@+id/de"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/inputde" 
+        />
+
+        <EditText
+            android:numeric="integer"
+            android:id="@+id/ar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/inputar" 
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <Button 
+            android:id="@+id/in_ok"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            />
+        <Button 
+            android:id="@+id/in_cancel"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            />
+    </LinearLayout>
+
+</LinearLayout>

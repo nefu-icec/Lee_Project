@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:orientation="horizontal" >
+
+        <Button 
+            android:id="@+id/submit_info"
+            android:background="@drawable/blue_button"
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="提交验收记录"
+            android:layout_weight="3"
+            />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="历史记录"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <Button 
+            android:id="@+id/clearall"
+            android:background="@drawable/blue_button"
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="清空全部记录"
+            android:layout_weight="3"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_histories"
+        android:scrollingCache="false"
+        android:dividerHeight="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout2" 
+        android:visibility="gone"
+        >
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <Button
+            android:id="@+id/find_by_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:padding="5dp"
+            android:text="按日期查找" />
+
+        <Button
+            android:id="@+id/find_by_lbxb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:padding="5dp"
+            android:text="按林班小班查找" />
+
+        <Button
+            android:id="@+id/find_by_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:padding="5dp"
+            android:text="按树种查找" />
+
+        <Button
+            android:id="@+id/find_by_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:padding="5dp"
+            android:text="按地域查找" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noneitem_prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout2"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:text="没有内容" />
+
+</RelativeLayout>

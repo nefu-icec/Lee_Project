@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">林业采伐管理</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="toolstitle">附加功能</string>
+    <color name="lightslategray">#778899</color>
+    <color name="light_blue">#AA4F94CD</color>
+    <string name="problem_title">问题反馈</string>
+    <string name="problem_hint">请输入您的问题</string>
+    <string name="problem_address">请留下您的联系方式</string>
+    <string name="problem_ok">提交</string>
+    <string name="problem_cancel">取消</string>
+    <string name="display_button_move">浏览模式</string>
+    <string name="display_button_gps">开启gps</string>
+    <string name="display_button_update">录入模式</string>
+    <string name="display_button_color">更改颜色</string>
+    
+    <string name="inputdb">请输入D根优</string>
+    <string name="inputdm">请输入D根中</string>
+    <string name="inputdw">请输入D根差</string>
+    <string name="inputde">请输入密度</string>
+    <string name="inputar">请输入面积</string>
+    <string name="in">请输入相应的数据</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+     <string name="regions">请选择地区或大类树种</string>
+    <string name="trees">请选择树种或大类树种对应区域</string>
+    
+    <string name="in_lbh">请输入林班号</string>
+    <string name="in_xbh">请输入小班号</string>
+    
+    <string name="pull_to_refresh_refreshing_label">刷新中</string>
+    <string name="pull_to_refresh_release_label">松开刷新</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_tap_label">下拉刷新</string>
+    
+    <string name="helpinfo">
+		&#160;（1）使用前，请务必保持网络连接畅通。\n
+		（2）进入主界面向左滑动或点击功能按钮来进入附加功能。\n
+		（3）点击地图浏览来实现地图的显示。\n
+		（4）点击历史记录来对历史记录进行操作，包括查看记录和提交记录。\n
+		（5）点击上级任务来从服务器得到需要验收的数据。\n
+		（6）在地图浏览时，点击录入数据，然后轻点某一区域，待区域闪烁时方可实现数据的按要求录入。\n
+		（7）在地图浏览时，点击更改颜色，则会实现颜色的切换。\n
+		（8）在功能界面点击检查更新来查看是否有最新版本。\n
+		（9）在功能界面点击问题反馈来提交您使用时的不满意之处。\n
+	</string>
+    <string name="dismodel">显示示点区数据</string>
+    
+    <string name="distime">采集时间：</string>
+    <string name="distemp">温度(℃)：</string>
+    <string name="dishumi">湿度(%RH)：</string>
+    <string name="dislight">光照度(LUX)：</string>
+    <string name="distentemp">10米深土壤温度(℃)：</string>
+    <string name="distwetemp">20米深土壤温度(℃)：</string>
+    <string name="distenhumi">10米深土壤湿度(v)：</string>
+    <string name="distwehumi">20米深土壤湿度(v)：</string>
+    <string name="disco2">二氧化碳浓度(ppm)：</string>
+    <string name="disrain">降水量(mm)：</string>
+
+</resources>
